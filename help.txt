@@ -1,0 +1,21 @@
+hello
+take note *note
+play classical
+play penguin
+play dinosaur
+show monitor
+show better monitor
+show notes
+clear notes
+show diss
+open netflix
+open psych
+open times
+open npr
+open gmail
+go to :website
+define *wordorphrase
+google *stuff
+close tab
+help
+shut down

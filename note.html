@@ -1,0 +1,68 @@
+<html>
+
+<head>
+
+<script>
+
+var weekRestSec = 60;
+var recognizeSound = "sounds/notification.wav";
+var alarmSound = "sounds/alarmdrum.wav";
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/annyang.min.js"></script>
+<script type="text/javascript" src="SpeechKITT/dist/speechkitt.min.js"></script>
+<script type="text/javascript" src="note.js"></script>
+
+</head>
+
+<body>
+
+<textarea id="twikiTextarea" width='400' height='200'></textarea>
+<p></p>
+<iframe width="400" height="600" id="iframe"></iframe>
+<p></p>
+<div id="weather" style="width:400px;">
+<a class="weatherwidget-io" href="https://forecast7.com/en/32d72n117d16/san-diego/?unit=us" data-label_1="SAN DIEGO" data-label_2="WEATHER" data-theme="original" >SAN DIEGO WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://weatherwidget.io/js/widget.min.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","weatherwidget-io-js");
+</script>
+</div>
+
+
+<!--
+<div style="margin: 0 auto; width:100%; height:400px;">
+    <object type="text/html" data="https://www.reddit.com"
+            style="width:100%; height:100%; margin:1%;">
+    </object>
+</div>
+-->
+
+
+<div id="note"><p></p></div>
+
+<div id="message_wrapper"><div id="message"></div></div>
+
+<!--
+
+<div id="stopwatch_container">
+<div class="timer"></div>
+<button onClick="startTimer()">start</button>
+<button onClick="stopTimer()">stop</button>
+<button onClick="resetTimer()">reset</button>
+</div>
+
+
+<div id="container">
+
+    <a href="javascript:initTimer(60);">60</a> seconds
+
+</div>
+-->
+
+</body>
+
+</html>
+

@@ -1,0 +1,3 @@
+[submodule "SpeechKITT"]
+	path = SpeechKITT
+	url = https://github.com/TalAter/SpeechKITT

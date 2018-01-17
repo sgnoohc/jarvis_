@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,900);
+
+#container {
+    /* top right bottom left */
+    padding: 10px 20px 10px; 20px;
+}
+
+
+
+/* /1* TOP BAR *1/ */
+/* #topBar { */
+/*     width: 100%; */
+/*     font-size: xx-large; */
+/*     padding: 0px 10px 10px 10px; */
+/*     font-weight: bold; */
+/*     height: 45px; */
+/*     z-index: -1; */
+/*     background-color: #eee; */ 
+/*     white-space: nowrap; */
+/* } */
+
+/* #colorstrip{ */
+/*     width: 100%; height: 3px; */
+/*     background-color: black; */
+/* } */
+
+/* .mainlogo { */
+/*     position: relative; */
+/*     /1* top: 15px; *1/ */
+/*     top: 8px; */
+/*     padding: 0px 10px 0px 10px; */
+/*     /1* height:50px; *1/ */
+/*     height:40px; */
+/* } */
+
+/* BODY CONTENTS */
+body {
+    font-family: Open Sans;
+}
+
+
+
+/* VARIOUS SECTIONS */
+
+.weekday {
+    font-weight: bold;
+    font-size: large;
+}
+
+#message {
+    font-weight: bold;
+    color: #f00;
+}
+
+.exercise_image_cell {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.exercise_image {
+    height: 125px;
+}
+
+#stopwatch_container {
+    position: fixed;
+    text-align: center;
+    /* position: absolute; */
+    float: right;
+    top: 0%;
+    right: 0%;
+}
+
+.timer {
+    font-size: 3em;
+}
+
+
+
+/* INPUT BOXES */
+.repsets {
+    font-family: inherit;
+    top: -1px;
+    /* margin: 5px auto; */
+    width: 50px;
+    height: 30px;
+    font-size: inherit;
+    text-align: center;
+}
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+
+.L { border: 1.5px solid #3333FF; }
+.R { border: 1.5px solid #FF3333; }
+
+.R:focus { border: 2px solid #000; }
+.L:focus { border: 2px solid #000; }
+
+
+/* BUTTONS */
+button {
+    outline:none;
+    font-family: inherit;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    height: 31px;
+    border-radius: 0px;
+    color: #000000;
+    font-size: inherit;
+    background: #f0f0f0;
+    padding: 3px 15px 3px 15px;
+    margin: auto 15px 7px auto;
+    border: solid #000000 1px;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #FF3333; 
+}
+button:active {
+    color: #FF8080; 
+}
+
+
